@@ -63,7 +63,3 @@ int main (){
     std::cout << "arr_swap1:" << arr_swap1[0] << " - "<< arr_swap1[1] << std::endl;
     std::cout << "arr_swap2:" << arr_swap2[0] << " - "<< arr_swap2[1] << std::endl;
 }
-
-
-// clang-tidy main.cpp -extra-arg=-std=c++17
-// g++ -o main main.cpp -std=c++17
