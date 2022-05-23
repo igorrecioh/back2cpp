@@ -10,13 +10,25 @@
 ---
 - [STL Containers](stl_containers/)
   - [std::array](stl_containers/std_array.cpp)
+  - [std::vector](stl_containers/std_vector.cpp)
+  - [std::deque]()
+  - [std::queue]()
+  - [std::stack]()
+  - [std:list]()
+  - [std::map]()
+  - [std::set]()
 
 
 ## Cómo ejecutar los ejemplos
 ---
 ```bash
+# Compilación
 g++ -o <nombre_del_ejecutable> <nombre_del_ejemplo>.cpp -std=c++17
+
+# Ejecución
+./<nombre_del_ejemplo>
 
 # Ejemplo:
 g++ -o std_array std_array.cpp -std=c++17
+./std_array
 ```
